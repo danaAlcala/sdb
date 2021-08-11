@@ -1,6 +1,6 @@
 ﻿{
-	"name": "New project",
-	"short_name": "New project",
+	"name": "Giveaway Game",
+	"short_name": "Giveaway Game",
 	"start_url": "index.html",
 	"display": "fullscreen",
 	"orientation": "any",
