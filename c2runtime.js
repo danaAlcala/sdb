@@ -20126,5 +20126,6 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Sprite.prototype.acts.SetX,
 	cr.plugins_.Sprite.prototype.acts.SetY,
 	cr.plugins_.Text.prototype.acts.SetOpacity,
-	cr.plugins_.Text.prototype.cnds.CompareOpacity
+	cr.plugins_.Text.prototype.cnds.CompareOpacity,
+	cr.plugins_.Sprite.prototype.cnds.IsOverlapping
 ];};
