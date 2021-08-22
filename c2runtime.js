@@ -20093,9 +20093,9 @@ cr.behaviors.Fade = function(runtime)
 }());
 cr.getObjectRefTable = function () { return [
 	cr.plugins_.Browser,
-	cr.plugins_.Text,
-	cr.plugins_.TiledBg,
 	cr.plugins_.Sprite,
+	cr.plugins_.TiledBg,
+	cr.plugins_.Text,
 	cr.plugins_.Mouse,
 	cr.plugins_.Touch,
 	cr.behaviors.Bullet,
@@ -20109,9 +20109,9 @@ cr.getObjectRefTable = function () { return [
 	cr.behaviors.Bullet.prototype.acts.SetAngleOfMotion,
 	cr.plugins_.Sprite.prototype.acts.SetOpacity,
 	cr.system_object.prototype.acts.SetVar,
+	cr.behaviors.Bullet.prototype.acts.SetEnabled,
 	cr.plugins_.Touch.prototype.cnds.OnTapGestureObject,
 	cr.plugins_.Sprite.prototype.cnds.CompareOpacity,
-	cr.behaviors.Bullet.prototype.acts.SetEnabled,
 	cr.plugins_.Sprite.prototype.acts.Destroy,
 	cr.plugins_.Browser.prototype.acts.GoToURLWindow,
 	cr.plugins_.Sprite.prototype.acts.SetEffectEnabled,
@@ -20127,5 +20127,7 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Sprite.prototype.acts.SetY,
 	cr.plugins_.Text.prototype.acts.SetOpacity,
 	cr.plugins_.Text.prototype.cnds.CompareOpacity,
-	cr.plugins_.Sprite.prototype.cnds.IsOverlapping
+	cr.plugins_.Sprite.prototype.cnds.IsOverlapping,
+	cr.plugins_.TiledBg.prototype.cnds.CompareY,
+	cr.plugins_.TiledBg.prototype.acts.SetY
 ];};
