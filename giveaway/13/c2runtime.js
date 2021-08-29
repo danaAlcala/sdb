@@ -24696,7 +24696,6 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Sprite.prototype.cnds.CompareY,
 	cr.system_object.prototype.acts.NextPrevLayout,
 	cr.plugins_.Sprite.prototype.exps.X,
-	cr.plugins_.Sprite.prototype.cnds.CompareX,
 	cr.plugins_.Sprite.prototype.cnds.OnCollision,
 	cr.plugins_.Sprite.prototype.acts.Destroy,
 	cr.plugins_.Sprite.prototype.acts.SetOpacity,
@@ -24705,5 +24704,9 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Text.prototype.cnds.CompareOpacity,
 	cr.plugins_.Touch.prototype.cnds.IsTouchingObject,
 	cr.behaviors.Platform.prototype.acts.SimulateControl,
-	cr.plugins_.Browser.prototype.acts.GoToURL
+	cr.plugins_.Browser.prototype.acts.GoToURL,
+	cr.system_object.prototype.cnds.IsMobile,
+	cr.plugins_.Sprite.prototype.cnds.CompareX,
+	cr.system_object.prototype.cnds.EveryTick,
+	cr.plugins_.Text.prototype.acts.SetText
 ];};
