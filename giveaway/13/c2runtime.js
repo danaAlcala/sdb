@@ -24705,8 +24705,7 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Touch.prototype.cnds.IsTouchingObject,
 	cr.behaviors.Platform.prototype.acts.SimulateControl,
 	cr.plugins_.Browser.prototype.acts.GoToURL,
-	cr.system_object.prototype.cnds.IsMobile,
-	cr.plugins_.Sprite.prototype.cnds.CompareX,
 	cr.system_object.prototype.cnds.EveryTick,
-	cr.plugins_.Text.prototype.acts.SetText
+	cr.plugins_.Text.prototype.acts.SetText,
+	cr.plugins_.Sprite.prototype.cnds.CompareX
 ];};
